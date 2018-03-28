@@ -1,0 +1,66 @@
+.app-container {
+  margin: 20px auto 0;
+  width: 375px;
+}
+
+.header-container {
+  padding: 10px 0 15px;
+  font-weight: 200;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* INPUT FIELD */
+.input-container {
+  padding: 3px;
+}
+
+input {
+  height: 50px;
+  vertical-align: top;
+  outline: none;
+  padding: 7px;
+  border: 2px solid #30dede;
+}
+
+input:focus {
+  border: 2px solid aqua;
+}
+
+.inputfield-incrementors {
+  text-align: center;
+  width: 50px;
+  height: 68px;
+  margin: 0 5px;
+  background-color: #30dede;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 28px;
+  position: relative;
+}
+
+.inputfield-incrementors:hover {
+  background-color: aqua;
+}
+
+.inputfield-incrementors:active {
+  background-color: aqua;
+  transform: translate(2px, 2px);
+}
+
+.inputfield-plus-minus {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* TEXT CONTAINER */
+.text-container {
+  margin-top: 20px;
+}
+
+.text-content {
+  border: 2px solid #000;
+  margin-bottom: 5px;
+  padding: 5px;
+}
