@@ -4,7 +4,8 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header-container">
-        Rob Hitt Input Field Add/Remove App
+        <span className="header-input-generator">Input Generator </span>
+        <span className="header-byRH">by Rob Hitt</span>
       </div>
     );
   }

@@ -10,6 +10,15 @@
   font-size: 18px;
 }
 
+.header-input-generator {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-byRH {
+  font-size: 12px;
+}
+
 /* INPUT FIELD */
 .input-container {
   padding: 3px;
